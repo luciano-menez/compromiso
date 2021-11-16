@@ -1,0 +1,79 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #284595;
+}
+
+.caja {
+    height: 100px;
+}
+
+.formulario {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    
+   
+}
+
+.inputs {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 338px;
+    margin-right: 23px;
+    
+}
+
+.text-area {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.title {
+    text-align: center;
+    margin-bottom: 42px;
+}
+
+.inputs input {
+    margin-bottom: 15px;
+    height: 33px;
+}
+
+.text-area textarea{
+    resize: none;
+    width: 458px;
+    height: 183px;
+    
+}
+
+.text-area input {
+    height: 33px;
+    margin-top: 10px;
+    background-color: #61B45E;
+    border: none;
+    color: #E8E7E7;
+}
+
+.title p{
+    font-family: 'Open Sans';
+    font-size: 20px;
+    color: #ffff;
+}
+
+.inputs input::placeholder {
+    font-size: 12px;
+    color: #A9AAAA;
+    padding: 10px;
+}
+
+.text-area textarea::placeholder {
+    font-size: 12px;
+    color: #A9AAAA;
+    padding: 10px;
+}

@@ -54,6 +54,49 @@ main {
 
 /* Boton Flotante */
 
+.menu-contact {
+    /*display: flex;
+    justify-content: flex-end;*/
+
+    /*visibility: hidden;*/
+    display: none;
+
+    width: 219px;
+    height: 57px;
+    background: #FFFFFF;
+    box-shadow: 0px 3.50877px 8.77193px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+}
+
+.menu-contact a {
+    text-decoration: none;
+}
+
+.boton-block { /*pruebajs*/
+    display: block;
+}
+
+.boton-none { /*prueba2Js*/
+    display: none;
+}
+
+
+.menu-item2 img {
+    width: 65px;
+    margin-left: 12px;
+}
+
+.menu-item2:last-child img {
+    width: 65px;
+    margin-top: -2px;
+    margin-left: -9px;
+}
+
+a .menu-item2 {
+    list-style: none;
+    
+}
+
 .menu-content {
     width: 200px;
     position: fixed;
@@ -96,6 +139,10 @@ main {
     transform: translateX(-200px);
 }
 
+.menu-content {
+    display: none;
+}
+
 
 /******************************/
 
@@ -126,6 +173,7 @@ p {
 .banner {
     width: 100%;
     height: 530px;
+    z-index: -1;
 }
 
 .banner .title {
@@ -1315,31 +1363,6 @@ phone: 480
 }
 
 
-/*
-@media (max-width: 1300px) {
-
-.impactSector {
-    margin: 18vh;
-    margin-bottom: 1vh;
-}
-
-.greenBox-text {
-    margin: 12vh;
-}
-
-.aboutSec1-sector {
-    margin-top: 12vh;
-}
-
-.blueBox {
-    margin-bottom: 8vh;
-}
-
-.dobleSector {
-    margin-top: 32vh;
-}
-}
-*/
 
 
 /* SMALL MONITOR: 1237PX */
@@ -1800,6 +1823,21 @@ phone: 480
     .contact-text p{
         font-size: 17px;
     }
+
+    /* BOTON CONTACTO */
+
+    .menu-content {
+        display: block;
+    }
+
+    .menu-contact {
+        display: none;
+    }
+
+    .contact-image {
+        display: none;
+    }
+
 
 
 }

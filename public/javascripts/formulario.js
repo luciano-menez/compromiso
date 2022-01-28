@@ -16,6 +16,7 @@ async function handlesubmit(event) {
     if(response.ok){
         this.reset()
         alert("Formulario enviado!")
+        gtag('event', 'form send')
     }
 
 }

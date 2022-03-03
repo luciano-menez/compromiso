@@ -257,7 +257,7 @@ p {
 
 .services {
     z-index: 2;
-    background-image: url('../images/fondo\ servicios.png');
+    background-image: url('../images/Compromiso-Digital-fondo-servicios.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: 25% 0%;
@@ -265,7 +265,7 @@ p {
 }
 
 .develop {
-    background-image: url('../images/fondo\ desarrollo.png');
+    background-image: url('../images/Compromiso-Digital-fondo-desarrollo.png');
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -409,36 +409,6 @@ p {
 }
 
 
-/*   .square:hover .card{
-        z-index:0;
-        transition: ease-out;
-        transition-duration: 4s;
-    }
-
-.square .card {
-    position: absolute;
-    top: 0;
-    z-index: 2;
-    left: 0;
-    width: 100%;
-    height: 100%;   
-    background-color: black;
-    transition: 4s;
-}
-
-
-.square .card-hover {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index:1;
-    width: 100%;
-    height: 100%;
-    background-color: red;
-    transition: ease-in;
-    transition-duration: 4s;
-} */
-
 .square2 {
     display: flex;
     width: 225px;
@@ -516,7 +486,7 @@ p {
 }
 
 .fondo {
-    background-image: url("../images/briefcd.png");
+    background-image: url("../images/Compromiso-Digital-briefcd.png");
     background-size: cover;
 }
 
@@ -575,7 +545,7 @@ p {
 }
 
 .fondoPuño {
-    background-image: url("../images/fondoPuño2.png");
+    background-image: url("../images/Compromiso-Digital-fondoFist2.png");
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -623,7 +593,7 @@ p {
 /* --- SECTOR NUESTRO IMPACTO ---*/
 
 .fondo-impact {
-    background-image: url("../images/fondoIt.png");
+    background-image: url("../images/Compromiso-Digital-fondoIt.png");
     background-size: 100%;
     /*container*/
     background-repeat: no-repeat;
@@ -1618,7 +1588,7 @@ phone: 480
     }
     /* Busqueda y preseleccion */
     .fondo {
-        background-image: url(../images/briefcaseMovile.png);
+        background-image: url("../images/Compromiso-Digital-briefcaseMovile.png");
         background-size: cover;
     }
     .sector {
@@ -1705,7 +1675,7 @@ phone: 480
     }
     .fondo-circulo {
         box-sizing: border-box;
-        background-image: url(../images/fondoBlue3.png);
+        background-image: url("../images/Compromiso-Digital-fondoBlue3.png");
         background-size: 100% 100%;
         background-repeat: no-repeat;
     }
@@ -1881,7 +1851,7 @@ phone: 480
     .ecommerce-bg {
         z-index: 1;
         width: 100%;
-        background-image: url('../images/fondoBlue3.png');
+        background-image: url('../images/Compromiso-Digital-fondoBlue3.png');
         background-size: 110%;
         background-repeat: no-repeat;
     }
@@ -1963,13 +1933,13 @@ phone: 480
         width: 100%;
     }
     .background-marketing{
-        background-image: url("../images/Ellipse\ 5.png");
+        background-image: url("../images/Compromiso-Digital-Ellipse-5.png");
         background-size: 100% 100%;
         background-repeat: no-repeat;
     }
 
     .develop{
-        background-image: url("../images/develop-background.png");
+        background-image: url("../images/Compromiso-Digital-develop-background.png");
         background-size: 100% 100%;
     }
 

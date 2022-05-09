@@ -841,6 +841,7 @@ section div.clientes div.clientes-image-wrapper {
 
 section div.clientes div.clientes-image-wrapper img {
     width: 18%;
+    height: auto;
     margin: 5px;
     filter: grayscale();
 }
@@ -1216,11 +1217,6 @@ phone: 480
     }
     .aboutSec2-sector {
         margin-left: 13.3vw;
-    }
-    .circulo img {
-        width: 40em;
-        top: -78vh;
-        right: -56%;
     }
     .image img {
         width: 98vh;
